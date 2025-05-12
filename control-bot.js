@@ -1,7 +1,7 @@
 require("dotenv").config();
 const axios = require("axios");
 
-const deviceId = process.env.SWITCHBOT_DEVICE_ID;
+const deviceId = process.env.LOCK_DEVICE_ID;
 
 async function pressBot() {
   try {
